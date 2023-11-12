@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FASTFOOD </title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/f92ba764dc.js" crossorigin="anonymous"></script>
+    <style>
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+
+        .variantes {
+            display: none;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>logo</h1>
+        </div>
+
+        <div class="food-type">
+            <input type="text">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="perfil">
+            <i class="fa-solid fa-circle-user"></i>
+            <p>User</p>
+        </div>
+        <div>
+            <i class="fa-solid fa-arrow-right-to-bracket"></i>
+            <p>Login</p>
+        </div>
+    </header>
+    <hr>
+    <section class="content">
+        <div class="left">
+            <ul id="platos-lista">
+                <li><span>Comidas</span><i onclick="mostrarVariantes('plato1')" class="fa-solid fa-chevron-down"></i>
+                    <ul id="plato1-variantes" class="variantes">
+                        <li><input type="checkbox" id="plato1-variante1">Uno</li>
+                        <li><input type="checkbox" id="plato1-variante2">Dos</li>
+                        <li><input type="checkbox" id="plato1-variante3">Tres</li>
+                    </ul>
+                </li>
+                <li><span>Bebidas</span><i onclick="mostrarVariantes('plato2')" class="fa-solid fa-chevron-down"></i>
+                    <ul id="plato2-variantes" class="variantes">
+                        <li><input type="checkbox" id="plato1-variante1">Uno</li>
+                        <li><input type="checkbox" id="plato1-variante2">Dos</li>
+                        <li><input type="checkbox" id="plato1-variante3">Tres</li>
+                    </ul>
+                </li>
+                <li><span>Postres</span><i onclick="mostrarVariantes('plato3')" class="fa-solid fa-chevron-down"></i>
+                    <ul id="plato3-variantes" class="variantes">
+                        <li><input type="checkbox" id="plato1-variante1">Uno</li>
+                        <li><input type="checkbox" id="plato1-variante2">Dos</li>
+                        <li><input type="checkbox" id="plato1-variante3">Tres</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="right">
+            <div class="promotion">
+                <button><span>Conoce nuestras ofertas del día</span></button>
+                <button><span>Conoce nuestros combos del día</span></button>
+            </div>
+            <div class="menu">
+ 
+                <div class="number-project">
+                    <div class="box-project">
+                        <p>Hamburguesa</p>
+                        <div class="image-container">
+                            <img src="./imgs/hamburguesa.jpg" alt="generando proyecto">
+                            <div class="overlay">         
+                                <div class="bottom-overlay">
+                                    <li>Papas</li>
+                                    <li>Ensalada</li>
+                                    <li>Aros de cebolla</li>                       
+                                </div>   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="number-project">
+                    <div class="box-project">
+                        <p>Hamburguesa</p>
+                        <div class="image-container">
+                            <img src="./imgs/hamburguesa.jpg" alt="generando proyecto">
+                            <div class="overlay">         
+                                <div class="bottom-overlay">
+                                    <li>Papas</li>
+                                    <li>Ensalada</li>
+                                    <li>Aros de cebolla</li>                       
+                                </div>   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="number-project">
+                    <div class="box-project">
+                        <p>Hamburguesa</p>
+                        <div class="image-container">
+                            <img src="./imgs/hamburguesa.jpg" alt="generando proyecto">
+                            <div class="overlay">         
+                                <div class="bottom-overlay">
+                                    <li>Papas</li>
+                                    <li>Ensalada</li>
+                                    <li>Aros de cebolla</li>                       
+                                </div>   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="number-project">
+                    <div class="box-project">
+                        <p>Hamburguesa</p>
+                        <div class="image-container">
+                            <img src="./imgs/hamburguesa.jpg" alt="generando proyecto">
+                            <div class="overlay">         
+                                <div class="bottom-overlay">
+                                    <li>Papas</li>
+                                    <li>Ensalada</li>
+                                    <li>Aros de cebolla</li>                       
+                                </div>   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu">
+ 
+                <div class="number-project">
+                    <div class="box-project">
+                        <p>Hamburguesa</p>
+                        <div class="image-container">
+                            <img src="./imgs/hamburguesa.jpg" alt="generando proyecto">
+                            <div class="overlay">         
+                                <div class="bottom-overlay">
+                                    <li>Papas</li>
+                                    <li>Ensalada</li>
+                                    <li>Aros de cebolla</li>                       
+                                </div>   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="number-project">
+                    <div class="box-project">
+                        <p>Hamburguesa</p>
+                        <div class="image-container">
+                            <img src="./imgs/hamburguesa.jpg" alt="generando proyecto">
+                            <div class="overlay">         
+                                <div class="bottom-overlay">
+                                    <li>Papas</li>
+                                    <li>Ensalada</li>
+                                    <li>Aros de cebolla</li>                       
+                                </div>   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="number-project">
+                    <div class="box-project">
+                        <p>Hamburguesa</p>
+                        <div class="image-container">
+                            <img src="./imgs/hamburguesa.jpg" alt="generando proyecto">
+                            <div class="overlay">         
+                                <div class="bottom-overlay">
+                                    <li>Papas</li>
+                                    <li>Ensalada</li>
+                                    <li>Aros de cebolla</li>                       
+                                </div>   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="number-project">
+                    <div class="box-project">
+                        <p>Hamburguesa</p>
+                        <div class="image-container">
+                            <img src="./imgs/hamburguesa.jpg" alt="generando proyecto">
+                            <div class="overlay">         
+                                <div class="bottom-overlay">
+                                    <li>Papas</li>
+                                    <li>Ensalada</li>
+                                    <li>Aros de cebolla</li>                       
+                                </div>   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu">
+ 
+                <div class="number-project">
+                    <div class="box-project">
+                        <p>Hamburguesa</p>
+                        <div class="image-container">
+                            <img src="./imgs/hamburguesa.jpg" alt="generando proyecto">
+                            <div class="overlay">         
+                                <div class="bottom-overlay">
+                                    <li>Papas</li>
+                                    <li>Ensalada</li>
+                                    <li>Aros de cebolla</li>                       
+                                </div>   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="number-project">
+                    <div class="box-project">
+                        <p>Hamburguesa</p>
+                        <div class="image-container">
+                            <img src="./imgs/hamburguesa.jpg" alt="generando proyecto">
+                            <div class="overlay">         
+                                <div class="bottom-overlay">
+                                    <li>Papas</li>
+                                    <li>Ensalada</li>
+                                    <li>Aros de cebolla</li>                       
+                                </div>   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="number-project">
+                    <div class="box-project">
+                        <p>Hamburguesa</p>
+                        <div class="image-container">
+                            <img src="./imgs/hamburguesa.jpg" alt="generando proyecto">
+                            <div class="overlay">         
+                                <div class="bottom-overlay">
+                                    <li>Papas</li>
+                                    <li>Ensalada</li>
+                                    <li>Aros de cebolla</li>                       
+                                </div>   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="number-project">
+                    <div class="box-project">
+                        <p>Hamburguesa</p>
+                        <div class="image-container">
+                            <img src="./imgs/hamburguesa.jpg" alt="generando proyecto">
+                            <div class="overlay">         
+                                <div class="bottom-overlay">
+                                    <li>Papas</li>
+                                    <li>Ensalada</li>
+                                    <li>Aros de cebolla</li>                       
+                                </div>   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <script>
+        function mostrarVariantes(platoId) {
+            var plato = document.getElementById(platoId + "-variantes");
+            if (plato.style.display === "none") {
+                plato.style.display = "block";
+            } else {
+                plato.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

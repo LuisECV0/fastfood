@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10vh;
+  color: #ccc;
+  background-color: rgb(207, 36, 36);
+  border-bottom: 1px solid #e9ecef;
+}
+header .logo {
+  padding: 2vh;
+  margin: 0;
+}
+header .logo h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #d2d2d2;
+}
+header .map p {
+  margin: 0;
+  font-size: 16px;
+  color: #555;
+}
+header .map select {
+  padding: 8px;
+  border-radius: 5px;
+}
+header .food-type input {
+  color: #000;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1px solid #000;
+  width: 450px;
+  height: 20px;
+  background: #d9d9d9;
+}
+header .perfil p {
+  margin: 0;
+  font-size: 16px;
+  color: #d9d4d4;
+}
+
+.content {
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: row;
+  font-weight: 600;
+}
+.content .left {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+.content .left #platos-lista {
+  border-right: 1px solid red;
+  padding: 30px 35px;
+  height: 80vh;
+}
+.content .left #platos-lista li {
+  border: 2px solid rgb(46, 46, 42);
+  padding: 5px 15px 5px 5px;
+  border-radius: 10px;
+  background-color: #dbdddf;
+  transition: 0.4s;
+}
+.content .left #platos-lista li:hover {
+  border: 2px solid #dbdddf;
+  background-color: rgb(46, 46, 42);
+  color: #d9d9d9;
+  transition: 0.4s;
+}
+.content .right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 80%;
+}
+.content .right .promotion {
+  border-bottom: 1px solid rgb(119, 40, 36);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.content .right .promotion button {
+  background-color: rgb(160, 23, 23);
+  border: 1px solid black;
+  width: 200px;
+  height: 60px;
+  color: #e9ecef;
+  border-radius: 15px;
+  padding: 10px 5px;
+  cursor: pointer;
+  margin: 25px 100px 25px 100px;
+}
+.content .right .menu {
+  display: flex;
+}
+.content .right .menu .number-project {
+  margin: 10px 10px 10px 10px;
+}
+.content .right .menu .number-project h1 {
+  font-size: 30px;
+  text-align: center;
+  margin: 10px 0;
+}
+.content .right .menu .number-project .box-project p {
+  text-align: center;
+  padding: 10px;
+  border: none;
+  border: 1px solid #442424;
+  background-color: rgb(119, 40, 36);
+  font-weight: 800;
+  color: #ccc;
+}
+.content .right .menu .number-project .box-project .image-container {
+  position: relative;
+  display: inline-block;
+  border: 1px solid #d9d9d9;
+  height: auto;
+}
+.content .right .menu .number-project .box-project .image-container img {
+  width: 200px;
+}
+.content .right .menu .number-project .box-project .image-container .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  opacity: 0;
+  transition: 0.5s;
+}
+.content .right .menu .number-project .box-project .image-container .overlay .bottom-overlay {
+  padding: 10px;
+}
+.content .right .menu .number-project .box-project .image-container .overlay:hover {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+/*# sourceMappingURL=style.css.map */
